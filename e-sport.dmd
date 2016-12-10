@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="e-sport" id="583A6479-38BA-2644-BB91-961A0E13838B" version="3.5">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 10:04:55 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>583A6479-38BA-2644-BB91-961A0E13838B</designId>
+</OSDM_Design>
