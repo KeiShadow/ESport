@@ -40,6 +40,20 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="lID" id="8CDB5AB0-44E0-0E38-8CF0-A36FDF482088">
+<createdBy>Jan</createdBy>
+<createdTime>2016-12-10 19:27:29 UTC</createdTime>
+<generatorID>73FBD7D5-23B6-2397-7BC1-2B47640CFC01</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<referedAttribute>F098B68D-DC33-BCCC-F8EC-FADA5B0267B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="18FB024C-7812-1945-325C-D86A4612F864" name="Hry_PK">

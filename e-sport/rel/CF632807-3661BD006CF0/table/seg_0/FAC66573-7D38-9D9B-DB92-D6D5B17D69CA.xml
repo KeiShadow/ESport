@@ -30,7 +30,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Stat" id="80243CEE-B134-ABBD-C93B-7FE34F50DDDB">
+<Column name="Kontinent1" id="80243CEE-B134-ABBD-C93B-7FE34F50DDDB">
 <createdBy>Petr</createdBy>
 <createdTime>2016-12-10 15:52:47 UTC</createdTime>
 <generatorID>D6591B63-33D7-AC57-A2D2-0C5552104DAF</generatorID>
@@ -53,6 +53,39 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Stat" id="E798E7D0-84CC-6B5B-E089-24E76818E161">
+<createdBy>Jan</createdBy>
+<createdTime>2016-12-10 19:27:49 UTC</createdTime>
+<generatorID>0F0A9313-36FA-2747-65CE-7374D34CB58A</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mesto1" id="22B417F4-BB19-4199-CB72-75BE250CB14C">
+<createdBy>Jan</createdBy>
+<createdTime>2016-12-10 19:27:49 UTC</createdTime>
+<generatorID>0C2CD58E-4DF1-2FCC-93A4-BF419EACE367</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Liga_lID" id="826C355D-2E93-5C1F-21A0-A068576725D4">
+<createdBy>Jan</createdBy>
+<createdTime>2016-12-10 19:27:49 UTC</createdTime>
+<generatorID>7FF0ACCA-984B-5BF9-6CD9-277DB337E6E3</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D550BD9-F03F-80CB-0229-29BB2D4F1DB4" referredColumn="B4CD36CC-F3C0-AD47-ADB7-E6797C9FA16E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="13100415-A8FF-86B0-6D47-FD646BCF6B41" name="Lokace_PK">
@@ -65,6 +98,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="138BE28F-4071-FF81-C37E-F6FE6A53443A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762A3D70-59DA-29FF-CD83-D6C297C05E08" name="Lokace_Liga_FK">
+<createdBy>Jan</createdBy>
+<createdTime>2016-12-10 19:27:49 UTC</createdTime>
+<generatorID>F2A1ABED-CBFD-52E5-0935-9C63277C4588</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="826C355D-2E93-5C1F-21A0-A068576725D4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

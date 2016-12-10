@@ -92,36 +92,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="gID" id="EC916D3A-E89A-0E39-BF25-DD757F44E517">
-<createdBy>Petr</createdBy>
-<createdTime>2016-12-10 14:59:27 UTC</createdTime>
-<generatorID>D06D3B3A-5A5A-BCA9-A310-49FD4DB60A36</generatorID>
-<ownerDesignName>e-sport</ownerDesignName>
-<engineerTo>
-<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>90821D7F-B04E-8082-75B2-10292E26DBAA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="lokID" id="E6C82362-7650-2884-EE09-7BDF2FF375F1">
-<createdBy>Petr</createdBy>
-<createdTime>2016-12-10 14:59:40 UTC</createdTime>
-<generatorID>E736899A-EAB1-D0D6-F50B-937E90560703</generatorID>
-<ownerDesignName>e-sport</ownerDesignName>
-<engineerTo>
-<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>0CEB5BE3-0017-9F97-B321-8E369C9AFFD7</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="510BFBAA-5CF4-7274-5178-22C8FC56F514" name="Liga PK">

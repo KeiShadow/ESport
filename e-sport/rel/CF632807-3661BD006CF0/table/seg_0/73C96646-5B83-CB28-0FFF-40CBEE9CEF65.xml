@@ -19,38 +19,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="gID" id="5FA5AD8D-7323-F328-6368-54B06C849631">
-<createdBy>Petr</createdBy>
-<createdTime>2016-12-10 15:52:47 UTC</createdTime>
-<generatorID>EC916D3A-E89A-0E39-BF25-DD757F44E517</generatorID>
-<ownerDesignName>e-sport</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EEDB9AA4-2B88-2417-885F-F32055E4912B" referredColumn="0FA81E3E-AC06-3B2D-1A4D-AE8BC91F7285"/>
-</associations>
-</Column>
-<Column name="lokID" id="5448CF2F-3E0E-FD6A-BBA6-9E83C1F04E32">
-<createdBy>Petr</createdBy>
-<createdTime>2016-12-10 15:52:47 UTC</createdTime>
-<generatorID>E6C82362-7650-2884-EE09-7BDF2FF375F1</generatorID>
-<ownerDesignName>e-sport</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="66E6FB05-A860-E231-857A-29EB2DBC917A" referredColumn="138BE28F-4071-FF81-C37E-F6FE6A53443A"/>
-</associations>
-</Column>
 <Column name="Nazev_ligy" id="042B8137-7988-B517-FBFC-72B3AC3E4495">
 <createdBy>Petr</createdBy>
 <createdTime>2016-12-10 15:52:47 UTC</createdTime>
@@ -63,7 +31,7 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Poc_tymu" id="DE0056D3-4AC0-3389-43D5-71AEDE8E989B">
+<Column name="Poc.tymu" id="DE0056D3-4AC0-3389-43D5-71AEDE8E989B">
 <createdBy>Petr</createdBy>
 <createdTime>2016-12-10 15:52:47 UTC</createdTime>
 <generatorID>E799FC87-B3C0-6AF4-D1AB-D0FD681EDD8B</generatorID>
@@ -123,28 +91,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B4CD36CC-F3C0-AD47-ADB7-E6797C9FA16E"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="AAC88FE3-51F8-4182-F2AD-F83E91DC56C6" name="Liga_Hry_FK">
-<createdBy>Petr</createdBy>
-<createdTime>2016-12-10 15:52:47 UTC</createdTime>
-<generatorID>D06D3B3A-5A5A-BCA9-A310-49FD4DB60A36</generatorID>
-<ownerDesignName>e-sport</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5FA5AD8D-7323-F328-6368-54B06C849631"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="059C604E-3D75-FA35-C1E6-46804EBD1D4E" name="Liga_Lokace_FK">
-<createdBy>Petr</createdBy>
-<createdTime>2016-12-10 15:52:47 UTC</createdTime>
-<generatorID>E736899A-EAB1-D0D6-F50B-937E90560703</generatorID>
-<ownerDesignName>e-sport</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="5448CF2F-3E0E-FD6A-BBA6-9E83C1F04E32"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

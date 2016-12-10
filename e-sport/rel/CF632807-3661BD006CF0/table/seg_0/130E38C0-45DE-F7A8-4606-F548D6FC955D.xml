@@ -34,7 +34,7 @@
 <colAssociation fkAssociation="5FC88402-FDC7-2604-1E9B-451A4D9E0E09" referredColumn="B4CD36CC-F3C0-AD47-ADB7-E6797C9FA16E"/>
 </associations>
 </Column>
-<Column name="stID" id="64608A7A-31AF-4CB5-631F-89F1A4773929">
+<Column name="Statistiky_Tymu_stID" id="64608A7A-31AF-4CB5-631F-89F1A4773929">
 <createdBy>Petr</createdBy>
 <createdTime>2016-12-10 15:52:47 UTC</createdTime>
 <generatorID>0BCEF1FF-3E97-8700-94EB-5D8AC4FEF497</generatorID>
