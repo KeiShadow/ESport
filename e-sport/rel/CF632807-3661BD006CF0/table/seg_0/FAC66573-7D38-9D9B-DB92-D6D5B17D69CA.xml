@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAC66573-7D38-9D9B-DB92-D6D5B17D69CA" name="Lokace">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>F1E1EC70-DE66-0C9F-E05A-D2D30E805F9D</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lokID" id="138BE28F-4071-FF81-C37E-F6FE6A53443A">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>0CEB5BE3-0017-9F97-B321-8E369C9AFFD7</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontinent" id="60AA4B2F-4DA1-4580-1E81-18C78FC31947">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 16:06:28 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stat" id="80243CEE-B134-ABBD-C93B-7FE34F50DDDB">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>D6591B63-33D7-AC57-A2D2-0C5552104DAF</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mesto" id="E867689A-D96C-1898-264F-DC1690940863">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 16:06:28 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13100415-A8FF-86B0-6D47-FD646BCF6B41" name="Lokace_PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>79825079-3BE1-C446-2872-C19CF070EC26</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="138BE28F-4071-FF81-C37E-F6FE6A53443A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1AA92A7-EA57-B559-1F33-9FD046122155" name="Hry">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>E3DD2B75-2E63-31EC-3D18-D4A0D7D34E2B</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="gID" id="0FA81E3E-AC06-3B2D-1A4D-AE8BC91F7285">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>90821D7F-B04E-8082-75B2-10292E26DBAA</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jmeno_hry" id="77BDE249-96EE-45D9-D741-784F51622A11">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>9EF4D965-691A-6C0B-054C-5D93405E90A5</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E412214-F55A-6DD4-A462-58E876E504E7" name="Hry_PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>18FB024C-7812-1945-325C-D86A4612F864</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FA81E3E-AC06-3B2D-1A4D-AE8BC91F7285"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

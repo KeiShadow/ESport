@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1752FDDB-6344-7899-E61A-3878EF3A8C45" name="Statistiky_Tymu">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>69F468CE-86F5-8565-C1EE-56A3B5FD9C9C</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stID" id="1D0D6A1E-39DA-3BD7-04CE-D52B8E417AEA">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>EB2BAC3F-674B-AD17-0A38-5F7B605AAA06</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Global" id="3ABCF84D-83C8-25D6-6D32-CD9DB2F4B357">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>9CE49042-DC7D-7B87-1E9B-192DA20B7106</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EU_West" id="224DC30B-B9DE-4597-E815-5B2C0150398F">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>890316B3-AC61-6F6A-4C3E-487C9C23AFFB</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EU_East" id="361832A8-64A0-2508-3B5A-428112720E66">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>4A4DE2C0-900A-9C4A-F42A-559180FB28D5</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Asia_and_Oceania" id="6F8DCACB-3D96-D35F-CD07-84C2AFBAFE80">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>481E8429-EA8E-A87A-7455-0207EADE4157</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="America" id="AB917C3F-11B7-1D1E-D246-93927395F578">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>A208053D-B0AA-B2E2-875F-3B403B207157</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Win_money" id="7510533F-902E-781D-193F-D5BCE14F53D1">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>48958DC6-26FE-511D-10B7-FAAB5F8C0816</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vyhry" id="65DD65EC-9365-8EE2-D8BF-BC248641A1EE">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>26890916-97CA-E41E-E35A-3FF4E8B8CF07</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prohry" id="FEF98030-17C5-59EE-8A6E-628DE7891ADA">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>6F6D30A3-5A0D-FFCB-0BB2-BC93BFB91C07</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Remizy" id="4EFC8762-4CED-78CD-DCE4-021BAA103182">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>D2D265BD-D29C-A3D1-7328-2C676BE30F0C</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9508779-28E1-3123-94E4-6C6A775CE2F5" name="Statistiky_Tymu_PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>67DE7C13-A900-2941-DCED-2768F8DF0482</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D0D6A1E-39DA-3BD7-04CE-D52B8E417AEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

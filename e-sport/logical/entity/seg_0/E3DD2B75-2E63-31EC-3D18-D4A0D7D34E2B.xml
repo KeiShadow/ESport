@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3DD2B75-2E63-31EC-3D18-D4A0D7D34E2B" name="Hry">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 10:12:38 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="gID" id="90821D7F-B04E-8082-75B2-10292E26DBAA">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 10:12:48 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmeno hry" id="9EF4D965-691A-6C0B-054C-5D93405E90A5">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 10:12:55 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18FB024C-7812-1945-325C-D86A4612F864" name="Hry_PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 10:12:54 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90821D7F-B04E-8082-75B2-10292E26DBAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

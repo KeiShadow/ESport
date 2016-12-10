@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1E1EC70-DE66-0C9F-E05A-D2D30E805F9D" name="Lokace">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 11:16:08 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lokID" id="0CEB5BE3-0017-9F97-B321-8E369C9AFFD7">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 11:16:15 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kontinent" id="D6591B63-33D7-AC57-A2D2-0C5552104DAF">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 11:16:25 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stat" id="0F0A9313-36FA-2747-65CE-7374D34CB58A">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 16:06:52 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mesto" id="0C2CD58E-4DF1-2FCC-93A4-BF419EACE367">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 16:06:53 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79825079-3BE1-C446-2872-C19CF070EC26" name="Lokace PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 11:16:24 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CEB5BE3-0017-9F97-B321-8E369C9AFFD7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

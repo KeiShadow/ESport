@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="130E38C0-45DE-F7A8-4606-F548D6FC955D" name="Tymy">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>652A2D2D-5C20-ED1C-DA95-FD0B8C47DD77</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tID" id="05296D89-C4B1-3D7B-9F8C-2F6EA6A66761">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>F6C2743F-C9EC-6789-5C22-5C2C316B43E6</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lID" id="02AB1E42-8463-5A5B-13DF-12A39506F94B">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>37E3C6BC-7F84-85F6-04EC-B70789B658B1</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FC88402-FDC7-2604-1E9B-451A4D9E0E09" referredColumn="B4CD36CC-F3C0-AD47-ADB7-E6797C9FA16E"/>
+</associations>
+</Column>
+<Column name="stID" id="64608A7A-31AF-4CB5-631F-89F1A4773929">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>0BCEF1FF-3E97-8700-94EB-5D8AC4FEF497</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6A3C795-B2AF-3F29-902E-A0C8DD9577B9" referredColumn="1D0D6A1E-39DA-3BD7-04CE-D52B8E417AEA"/>
+</associations>
+</Column>
+<Column name="Nazev_tymu" id="21AAE07F-60AD-3D9C-9EAA-136497F28A20">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>424C04D4-B899-A230-5264-B7625D647A13</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Narodnost" id="97BFA053-20CE-7A09-FEC4-50DD2E078268">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>39A03148-86E3-28EE-D637-C69597810017</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1C71D16-D7FC-E077-2CF2-5AD1CAB4EEB6" name="Tymy_PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>92C34AF3-0881-3EF1-EDE2-8B9345E3F802</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05296D89-C4B1-3D7B-9F8C-2F6EA6A66761"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64F5D404-09AB-AD3D-6F81-5783A5BD25A4" name="Tymy__IDX">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>943D20B1-D290-C18C-650B-FE9D4A0ED4DA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="64608A7A-31AF-4CB5-631F-89F1A4773929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A32E3317-4A4F-10C5-C14E-577D5280C010" name="Tymy_Statistiky_Tymu_FK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>943D20B1-D290-C18C-650B-FE9D4A0ED4DA</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64608A7A-31AF-4CB5-631F-89F1A4773929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07706CE9-3D31-9153-3165-2EFB102EBD6F" name="Tymy_Liga_FK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>7757A5A4-C36F-803D-5E61-F7451638A8DB</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02AB1E42-8463-5A5B-13DF-12A39506F94B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

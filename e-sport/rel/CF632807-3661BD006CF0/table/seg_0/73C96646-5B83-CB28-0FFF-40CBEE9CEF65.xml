@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73C96646-5B83-CB28-0FFF-40CBEE9CEF65" name="Liga">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>9A5C147C-2A5A-9636-1F1E-197664E3585A</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lID" id="B4CD36CC-F3C0-AD47-ADB7-E6797C9FA16E">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>F098B68D-DC33-BCCC-F8EC-FADA5B0267B3</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gID" id="5FA5AD8D-7323-F328-6368-54B06C849631">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>EC916D3A-E89A-0E39-BF25-DD757F44E517</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEDB9AA4-2B88-2417-885F-F32055E4912B" referredColumn="0FA81E3E-AC06-3B2D-1A4D-AE8BC91F7285"/>
+</associations>
+</Column>
+<Column name="lokID" id="5448CF2F-3E0E-FD6A-BBA6-9E83C1F04E32">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>E6C82362-7650-2884-EE09-7BDF2FF375F1</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66E6FB05-A860-E231-857A-29EB2DBC917A" referredColumn="138BE28F-4071-FF81-C37E-F6FE6A53443A"/>
+</associations>
+</Column>
+<Column name="Nazev_ligy" id="042B8137-7988-B517-FBFC-72B3AC3E4495">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>8180A39B-9F98-669B-BCFF-B567CE84391E</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Poc_tymu" id="DE0056D3-4AC0-3389-43D5-71AEDE8E989B">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>E799FC87-B3C0-6AF4-D1AB-D0FD681EDD8B</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prize_pool" id="9C4ED26C-C460-2732-5213-F4D51176A585">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>6D942B1C-B110-6533-B35B-17425C65FA02</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zacatek" id="C472240B-6004-6D7B-062F-F160A636D481">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>A7147E0D-E7FD-1637-4CB2-5A21E8802B48</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Konec" id="829052FA-90A6-BCA8-15C5-5EE78EDE2493">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>188F5FB5-34BB-DE38-4CA9-C212F77DAAFC</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E9E2ECB-5DAA-74CB-642D-6CF09B0248D3" name="Liga_PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>510BFBAA-5CF4-7274-5178-22C8FC56F514</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4CD36CC-F3C0-AD47-ADB7-E6797C9FA16E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAC88FE3-51F8-4182-F2AD-F83E91DC56C6" name="Liga_Hry_FK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>D06D3B3A-5A5A-BCA9-A310-49FD4DB60A36</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FA5AD8D-7323-F328-6368-54B06C849631"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="059C604E-3D75-FA35-C1E6-46804EBD1D4E" name="Liga_Lokace_FK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>E736899A-EAB1-D0D6-F50B-937E90560703</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5448CF2F-3E0E-FD6A-BBA6-9E83C1F04E32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

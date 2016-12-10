@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="69F468CE-86F5-8565-C1EE-56A3B5FD9C9C" name="Statistiky Tymu">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 12:33:16 UTC</createdTime>
+<generatorID>2C7CB70F-FB48-DC5B-6241-AC094F15383A</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="stID" id="EB2BAC3F-674B-AD17-0A38-5F7B605AAA06">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 12:33:16 UTC</createdTime>
+<generatorID>DE4DE4AD-9360-052F-2147-A49317D6ED73</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Global" id="9CE49042-DC7D-7B87-1E9B-192DA20B7106">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 12:33:16 UTC</createdTime>
+<generatorID>47FB8534-ED81-40DE-98AE-D5F0C72213CC</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EU West" id="890316B3-AC61-6F6A-4C3E-487C9C23AFFB">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 12:33:16 UTC</createdTime>
+<generatorID>19B0C6A9-8127-D037-11D7-50029A5FE0B4</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Win money" id="48958DC6-26FE-511D-10B7-FAAB5F8C0816">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 12:33:16 UTC</createdTime>
+<generatorID>D9A5F536-720B-F5C3-9C53-2052F5D4502A</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vyhry" id="26890916-97CA-E41E-E35A-3FF4E8B8CF07">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-04 10:57:03 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prohry" id="6F6D30A3-5A0D-FFCB-0BB2-BC93BFB91C07">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-04 10:57:10 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Remizy" id="D2D265BD-D29C-A3D1-7328-2C676BE30F0C">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-04 10:57:14 UTC</createdTime>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EU East" id="4A4DE2C0-900A-9C4A-F42A-559180FB28D5">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 14:48:44 UTC</createdTime>
+<generatorID>F4F178E2-4D68-4B35-8AFB-FF0BE1D22F42</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Asia and Oceania" id="481E8429-EA8E-A87A-7455-0207EADE4157">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 14:48:44 UTC</createdTime>
+<generatorID>1083E410-3BAA-C142-214D-82BED00842D4</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="America" id="A208053D-B0AA-B2E2-875F-3B403B207157">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 14:48:44 UTC</createdTime>
+<generatorID>ED1B10F6-524D-D019-0321-B0C0CFB88D87</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67DE7C13-A900-2941-DCED-2768F8DF0482" name="Statistiky Tymu PK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-11-27 12:33:16 UTC</createdTime>
+<generatorID>C2A23037-724C-3CEC-891A-C1D52A40CE89</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="CF632807-AA27-9E5C-009B-3661BD006CF0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EB2BAC3F-674B-AD17-0A38-5F7B605AAA06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

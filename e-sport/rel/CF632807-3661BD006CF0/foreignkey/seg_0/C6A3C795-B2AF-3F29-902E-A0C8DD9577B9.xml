@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6A3C795-B2AF-3F29-902E-A0C8DD9577B9" containerWithKeyObject="130E38C0-45DE-F7A8-4606-F548D6FC955D" localFKIndex="A32E3317-4A4F-10C5-C14E-577D5280C010" name="Tymy_Statistiky_Tymu_FK">
+<createdBy>Petr</createdBy>
+<createdTime>2016-12-10 15:52:47 UTC</createdTime>
+<generatorID>943D20B1-D290-C18C-650B-FE9D4A0ED4DA</generatorID>
+<ownerDesignName>e-sport</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1752FDDB-6344-7899-E61A-3878EF3A8C45</referredTableID>
+<keyObject>B9508779-28E1-3123-94E4-6C6A775CE2F5</keyObject>
+<referredKeyID>B9508779-28E1-3123-94E4-6C6A775CE2F5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
